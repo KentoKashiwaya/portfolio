@@ -1,0 +1,7 @@
+import React from "react";
+import "../css/Work.css";
+
+const Work = () => {
+  return <div className="Work">Work</div>;
+};
+export default Work;
