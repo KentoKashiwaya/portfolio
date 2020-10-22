@@ -1,6 +1,15 @@
 .Skil {
-    width: 100vw;
-    height: 726px;
-    font-size: 200px;
-    padding: 5vw;
+  height: 726px;
 }
+.sk_title {
+  color: #f5d300; 
+}
+.sk_container {
+    height: 260px;
+    margin-bottom: 2vw;
+}
+.sk_table {
+    width: 28vw;
+    border: 4px solid #f5d300;
+    background-color: #fff;
+  }

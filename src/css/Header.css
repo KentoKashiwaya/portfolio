@@ -1,5 +1,6 @@
 .Header {
   font-size: 2.5rem;
+  font-weight: bold;
   line-height: 7rem;
   width: 100vw;
   height: 65px;
@@ -9,7 +10,7 @@
   cursor: pointer;
   background-color: black;
 }
-.logo{
+.logo {
   width: 20vw;
   height: 65px;
 }
@@ -18,11 +19,22 @@
   text-decoration: none;
 }
 .menu:hover {
-    background-color: #fff;
-    color: black;
+  color: black;
 }
-a:link, a:visited, a:active {
+.about_menu:hover {
+  color: #09fbd3;
+}
+.skil_menu:hover {
+  color:  #f5d300;
+}
+.work_menu:hover {
+  color: #ccff33;
+}
+.contact_menu:hover {
+  color: #fe53bb;
+}
+a:link,
+a:visited,
+a:active {
   color: white;
 }
-
-

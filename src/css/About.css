@@ -1,5 +1,23 @@
 .About {
-    width: 100vw;
-    height: 726px;
-    font-size: 200px;
+  height: 726px;
+}
+.ab_title {
+  color: #09fbd3;
+}
+.ab_container {
+  height: 500px;
+}
+.ab_table {
+  width: 55vw;
+  border: 4px solid #09fbd3;
+  color: black;
+  background-color: #fff;
+}
+.ab_table > h3 {
+    margin-bottom: 2vw;
+}
+.ab_img {
+    width: 35vw; 
+    height: 35vw;   
+    border: none;
 }

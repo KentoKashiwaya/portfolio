@@ -1,5 +1,7 @@
 .Contact {
-    width: 100vw;
     height: 726px;
-    font-size: 200px;
 }
+.ct_title {
+    color: #fe53bb;
+}
+  

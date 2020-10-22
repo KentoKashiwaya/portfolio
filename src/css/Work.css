@@ -1,6 +1,38 @@
 .Work {
-    width: 100vw;
-    height: 726px;
-    font-size: 200px;
-    padding-top: 5vw;
+  height: 726px;
+}
+.open_window:link,
+.open_window:visited,
+.open_window:active {
+  color: black;
+  text-decoration: none;
+}
+.wk_title {
+  color: #ccff33;
+}
+.wk_container {
+  height: 580px;
+}
+.wk_table {
+  width: 55vw;
+  border: 4px solid #ccff33;
+  color: black;
+  background-color: #fff;
+}
+
+.wk_table > h3 {
+  margin-bottom: 2vw;
+  text-decoration: underline;
+}
+.wk_img {
+  width: 38vw;
+  height: 40vw;
+  border: none;
+}
+
+.wk_direction {
+  margin-bottom: 1.5vw;
+}
+.anotation {
+  opacity: 70%;
 }

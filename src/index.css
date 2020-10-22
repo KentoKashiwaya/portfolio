@@ -160,3 +160,29 @@ html {
   color: #fff;
   text-align: center;
 }
+.About,
+.Contact,
+.Skil,
+.Work {
+  width: 100vw;
+  padding:8vw 5vw;  
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2.5vw;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.7rem;
+}
+.container {
+  display: flex;
+}
+.table {
+  padding:1vw; 
+  font-size: 1.5rem;
+  line-height: 1.7;
+  margin: 0 1vw;
+}
