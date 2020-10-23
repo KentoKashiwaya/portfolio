@@ -160,29 +160,51 @@ html {
   color: #fff;
   text-align: center;
 }
+.sp_only {
+  display: none;
+}
+.Top,
 .About,
 .Contact,
 .Skil,
 .Work {
   width: 100vw;
-  padding:8vw 5vw;  
+  padding: 80px 5vw 8vw 5vw;
 }
+
 h1 {
   font-size: 2.5rem;
-  margin-bottom: 2.5vw;
+  margin-bottom: 2vw;
 }
 h2 {
   font-size: 2rem;
+  margin:0;
 }
 h3 {
   font-size: 1.7rem;
+  margin-bottom: 1vw;
 }
 .container {
   display: flex;
 }
 .table {
-  padding:1vw; 
+  padding: 1vw;
   font-size: 1.5rem;
   line-height: 1.7;
   margin: 0 1vw;
+}
+@media (max-width: 959px) {
+  .pc_only {
+    display: none;
+  }
+  .sp_only {
+    display: block;
+  }
+  .Top,
+  .About,
+  .Contact,
+  .Skil,
+  .Work {
+    padding-bottom: 2vw;
+  }
 }
