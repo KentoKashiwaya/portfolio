@@ -1,6 +1,9 @@
 .ab_title {
   color: #09fbd3;
 }
+.ab_strong {
+  background-color: #09fbd3;
+}
 .ab_container {
   margin-bottom: 1vw;
 }

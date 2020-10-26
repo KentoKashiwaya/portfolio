@@ -7,6 +7,9 @@
 .wk_title {
   color: #ccff33;
 }
+.wk_strong {
+  background-color: #ccff33;
+}
 .wk_table {
   width: 55vw;
   border: 4px solid #ccff33;

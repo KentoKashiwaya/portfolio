@@ -17,6 +17,10 @@
  border: 4px solid #f5d300;
  background-color: #fff;
  color: black;
+ font-weight: bold;
+}
+.sk_strong {
+  background-color: #f5d300;
 }
 @media (max-width: 959px) {
   .sk_container{
