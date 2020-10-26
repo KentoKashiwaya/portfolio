@@ -23,7 +23,7 @@ const Skil = () => {
       </div>
       <div className="container ">
        <div className="table sk_discription">
-         <h3>今できること</h3>
+         <h3>できること</h3>
          <div><span className="sk_strong">HTML/CSS</span>を用いたレスポンシブなサイト</div>
          <div><span className="sk_strong">JavaScript(ES6)</span>を用いたUXリッチなwebアプリケーション</div>
          <div><span className="sk_strong">jquery</span>を用いた静的サイト</div>
