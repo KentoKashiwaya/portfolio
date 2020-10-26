@@ -21,6 +21,17 @@ const Skil = () => {
         <img className="table sk_table" src={jquery} />
         <img className="table sk_table" src={git} />
       </div>
+      <div className="container ">
+       <div className="table sk_discription">
+         <h3>今できること</h3>
+         <div>HTML/CSSを用いたレスポンシブなサイト</div>
+         <div>JavaScript(ES6)を用いたUXリッチなwebアプリケーション</div>
+         <div>jqueryを用いた静的サイト</div>
+         <div>React.jsを用いた状態を持つSPA</div>
+         <div>TypeScriptを用いた型のあるwebアプリケーション</div>
+         <div>gitによるプロジェクトのバージョン管理</div>
+       </div>
+      </div>
     </div>
   );
 };

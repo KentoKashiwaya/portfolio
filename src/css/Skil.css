@@ -1,15 +1,33 @@
-.Skil {
-  height: 726px;
-}
+
 .sk_title {
-  color: #f5d300; 
+  color: #f5d300;
 }
 .sk_container {
-    height: 260px;
-    margin-bottom: 2vw;
+  height: 260px;
+  margin-bottom: 2vw;
 }
 .sk_table {
-    width: 28vw;
-    border: 4px solid #f5d300;
-    background-color: #fff;
+  width: 28vw;
+  border: 4px solid #f5d300;
+  background-color: #fff;
+}
+.sk_discription {
+ width: 88vw; 
+ height: 260px;
+ border: 4px solid #f5d300;
+ background-color: #fff;
+ color: black;
+}
+@media (max-width: 959px) {
+  .sk_container{
+    height: 28vw;
   }
+  .sk_discription{
+    height: 220px;
+  }
+}
+@media (max-width: 599px) {
+  .sk_discription{
+    height: 160px;
+  } 
+}

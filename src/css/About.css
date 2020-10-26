@@ -22,7 +22,7 @@
 .ab_discription {
   position: absolute;
   top: 60%;
-  transform: translateY(-60%)
+  transform: translateY(-60%);
 }
 
 @media (max-width: 959px) {
@@ -30,9 +30,13 @@
     width: 88vw;
     height: 450px;
   }
-
   .ab_img {
     width: 43vw;
     height: 43vw;
+  }
+}
+@media (max-width: 599px) {
+  .ab_table {
+    height: 320px;
   }
 }
