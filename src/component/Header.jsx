@@ -6,7 +6,7 @@ import logo from "../image/logo.png";
 function Header() {
   return (
     <div className="Header">
-      <Link to="/">
+      <Link to="/" className="pc_only">
         <img src={logo} className="logo" />
       </Link>
       <Link to="/about" className="menu about_menu pc_only">
