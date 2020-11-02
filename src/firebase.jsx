@@ -9,5 +9,5 @@ export const config = {
     storageBucket: "portfolio-c6a06.appspot.com",
     messagingSenderId: "708582297696"   
 }
-firebase.initializeApp(config);
+// firebase.initializeApp(config);
 

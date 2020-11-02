@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import "../css/ContactForm.css"
+import {config} from "../firebase"
 
 const firebase = require("firebase");
 require("firebase/functions");
@@ -9,6 +10,7 @@ require("firebase/functions");
 class ContactForm extends Component {
   constructor() {
     super();
+    firebase.initializeApp(config);
     this.onSubmit = this.onSubmit.bind(this);
   }
   
