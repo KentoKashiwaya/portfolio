@@ -14,11 +14,11 @@ import { BrowserRouter, Route } from "react-router-dom";
 ReactDOM.render(
   <BrowserRouter>
     <Header/>
-    <Route exact path={"/"} component={Top} />
-    <Route path={"/about"} component={About} />
-    <Route path={"/skil"} component={Skil} />
-    <Route path={"/work"} component={Work} />
-    <Route path={"/contact"} component={Contact} />
+    <Route exact path={"/portfolio"} component={Top} />
+    <Route path={"/portfolio/about"} component={About} />
+    <Route path={"/portfolio/skil"} component={Skil} />
+    <Route path={"/portfolio/work"} component={Work} />
+    <Route path={"/portfolio/contact"} component={Contact} />
   </BrowserRouter>,
   document.getElementById("root")
 );

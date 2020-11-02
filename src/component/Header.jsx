@@ -6,19 +6,19 @@ import logo from "../image/logo.png";
 function Header() {
   return (
     <div className="Header">
-      <Link to="/" className="pc_only">
+      <Link to="/portfolio" className="pc_only">
         <img src={logo} className="logo" />
       </Link>
-      <Link to="/about" className="menu about_menu pc_only">
+      <Link to="/portfolio/about" className="menu about_menu pc_only">
         ABOUT
       </Link>
-      <Link to="/skil" className="menu skil_menu pc_only">
+      <Link to="/portfolio/skil" className="menu skil_menu pc_only">
         SKIL
       </Link>
-      <Link to="/work" className="menu work_menu pc_only">
+      <Link to="/portfolio/work" className="menu work_menu pc_only">
         WORK
       </Link>
-      <Link to="/contact" className="menu contact_menu pc_only">
+      <Link to="/portfolio/contact" className="menu contact_menu pc_only">
         CONTACT
       </Link>
 
@@ -31,27 +31,27 @@ function Header() {
         <ul className="sideMenu">
           <label for="menu">
             <li>
-              <Link to="/" className="menu">
+              <Link to="/portfolio" className="menu">
                 TOP
               </Link>
             </li>
             <li>
-              <Link to="/about" className="menu about_menu">
+              <Link to="/portfolio/about" className="menu about_menu">
                 ABOUT
               </Link>
             </li>
             <li>
-              <Link to="/skil" className="menu skil_menu">
+              <Link to="/portfolio/skil" className="menu skil_menu">
                 SKIL
               </Link>
             </li>
             <li>
-              <Link to="/work" className="menu work_menu">
+              <Link to="/portfolio/work" className="menu work_menu">
                 WORK
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="menu contact_menu">
+              <Link to="/portfolio/contact" className="menu contact_menu">
                 CONTACT
               </Link>
             </li>
