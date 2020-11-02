@@ -14,7 +14,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 ReactDOM.render(
   <BrowserRouter>
     <Header/>
-    <Route exact path={"/portfolio"} component={Top} />
+    <Route exact path={"/"} component={Top} />
     <Route path={"/about"} component={About} />
     <Route path={"/skil"} component={Skil} />
     <Route path={"/work"} component={Work} />
